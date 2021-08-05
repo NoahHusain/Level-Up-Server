@@ -1,0 +1,26 @@
+[
+    {
+        "model": "levelupapi.event",
+        "pk": 1,
+        "fields": {
+            "date": 8042021,
+            "time": "6:30 PM",
+            "description": "Come join our Manic Monday Monopoly Meetup!",
+            "title": "Monday Monopoly Party",
+            "game_id": 2,
+            "host_id": 1
+        }
+    },
+    {
+        "model": "levelupapi.event",
+        "pk": 2,
+        "fields": {
+            "date": 8042021,
+            "time": "5:30 PM",
+            "description": "Guild Meeting at town center.",
+            "title": "World of Warcraft Wednesdays!",
+            "game_id": 1,
+            "host_id": 1
+        }
+    }
+]
