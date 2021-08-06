@@ -5,9 +5,11 @@ from rest_framework import routers
 from levelupapi.views import GameTypeView
 from rest_framework import routers
 from levelupapi.views import GameTypeView
+from levelupapi.views import GameTypes, Games
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'gametypes', GameTypeView, 'gametype')
+router.register(r'games', GameView, 'game')
 
 urlpatterns = [
     path('', include(router.urls)),

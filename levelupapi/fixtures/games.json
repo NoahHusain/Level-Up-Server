@@ -1,26 +1,38 @@
 [
     {
         "model": "levelupapi.game",
-        "pk": 1,
+        "pk": 3,
         "fields": {
-            "name": "Guild Wars 2",
-            "description": "Class based MMO set in fantasy setting",
-            "number_of_players": 10,
-            "maker": 1,
-            "game_type_id": 3,
-            "gamer_id": 1
+            "title": "Welcome To",
+            "maker": "Benoit Turpin",
+            "gamer": 1,
+            "game_type": 1,
+            "number_of_players": 4,
+            "skill_level": 3
         }
     },
     {
         "model": "levelupapi.game",
-        "pk": 2,
+        "pk": 4,
         "fields": {
-            "name": "Monopoly",
-            "description": "Capitalism Simulator",
+            "title": "Settlers of Catan",
+            "maker": "Klaus Teuber",
+            "gamer": 1,
+            "game_type": 1,
             "number_of_players": 4,
-            "maker": 1,
-            "game_type_id": 1,
-            "gamer_id": 1
+            "skill_level": 4
+        }
+    },
+    {
+        "model": "levelupapi.game",
+        "pk": 5,
+        "fields": {
+            "title": "Dungeons & Dragons",
+            "maker": "Wizards of the Coast",
+            "gamer": 1,
+            "game_type": 2,
+            "number_of_players": 5,
+            "skill_level": 3
         }
     }
 ]
