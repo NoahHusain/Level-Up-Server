@@ -30,7 +30,7 @@ class GameTypeView(ViewSet):
         """
         game_types = GameType.objects.all()
 
-        # Note the addtional `many=True` argument to the
+        # Note the additional `many=True` argument to the
         # serializer. It's needed when you are serializing
         # a list of objects instead of a single object.
         serializer = GameTypeSerializer(
